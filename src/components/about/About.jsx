@@ -8,6 +8,7 @@ const About = () => {
   return (
     <section
       id="about"
+
       className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
     >
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
@@ -43,7 +44,7 @@ const About = () => {
               
 
 <Typewriter
-  words={["Frontend Developer", "Java Developer", "Problem Solver"]}
+  words={["Frontend Developer", "Java Developer", "Problem Solver","DSA enthusiastic"]}
   loop={0} // 0 = infinite loop
   cursor
   cursorStyle="|"
