@@ -63,7 +63,7 @@ const About = () => {
           {/* Resume Button */}
           <a
             href=
-            "https://www.canva.com/design/DAGlEY2G5xY/NhkIrU1EOlHwCAHGaoZTSw/edit?utm_content=DAGlEY2G5xY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            "https://www.canva.com/design/DAGlEY2G5xY/oKFKsVIHEqcvn52juqqr2A/view?utm_content=DAGlEY2G5xY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h15540466d1"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
