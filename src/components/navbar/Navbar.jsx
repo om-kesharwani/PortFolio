@@ -8,7 +8,15 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
+   
+   
+  const phoneNumber = "917804064436"; // Replace with actual phone number (with country code)
+  const message = "Hello, I want to know more about your services!";
 
+  const openWhatsApp = () => {
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
   // Detect scroll and change navbar background
   useEffect(() => {
     const handleScroll = () => {
@@ -96,6 +104,12 @@ const Navbar = () => {
           >
             <FaLinkedin size={24} />
           </a>
+          <button 
+              onClick={openWhatsApp}
+              className="px-4 py-2 bg-green-500 text-white rounded-lg"
+              >
+              Chat on WhatsApp
+             </button>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -156,6 +170,12 @@ const Navbar = () => {
               >
                 <FaLinkedin size={24} />
               </a>
+              <button 
+              onClick={openWhatsApp}
+              className="px-4 py-2 bg-green-500 text-white rounded-lg"
+              >
+              Chat on WhatsApp
+             </button>
             </div>
           </ul>
         </div>
